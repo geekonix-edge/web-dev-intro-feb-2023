@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../Assets/CUrBrainjpeg.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CUrBrain</title>
+</head>
+
+
+<body>
+    <nav class="navBar">
+        <div class="logo">
+            <img src="../Assets/CUrBrainjpeg.jpeg" alt="" height="80px">
+        </div>
+        <ul class="navLink">
+            <li class="navLinkItem"><a href="#">Discover</a></li>
+            <li class="navLinkItem"><a href="#">Shop</a></li>
+            <li class="navLinkItem"><a href="#">Support</a></li>
+        </ul>
+        <div class="searchIcon">
+            <img src="../Assets/searchIcon.svg" alt="" srcset="" height="20px">
+        </div>
+    </nav>
+    <div class="freeDelTag">
+        <a href="">Fast and free delivery</a>
+    </div>
+    <div class="firstSection">
+        <div> <img src="./Assets/image.jpg" alt="" width="100%"></div>
+        <div class="firstSectionContent">
+            <div class="intro">
+                <span>NEW COLORS</span>
+            </div>
+            <div class="title">
+                <span>Beats Fit Pro</span>
+            </div>
+            <div class="description">
+                <span>Lock In. Work Out</span>
+            </div>
+            <button class="shop">SHOP</button>
+        </div>
+    </div>
+    <div class="section2">
+        <h1 style="text-align: center;padding-top: 50px;">Popular Now</h1>
+        <div class="prodList" style="display: flex; justify-content: center; flex-wrap: wrap;">
+            
+            <div class="card">
+                <div class="prodHead">
+                    <h1 class="prodTitle">Beats Studio Buds</h1>
+                    <h2 class="prodPrice">$150.00</h2>
+                </div>
+                <img class="prodImg" id="bud1" src="./Assets/studiobuds-red.png" alt="" srcset="" width="300px">
+                <div class="colours">
+                    <span class="red" onclick="budChangetored('bud1')"></span>
+                    <span class="black" onclick="budChangetoblack('bud1')"></span>
+                </div>
+                <br>
+                <br>
+            </div>
+            <div class="card">
+                <div class="prodHead">
+                    <h1 class="prodTitle">Beats Studio Buds</h1>
+                    <h2 class="prodPrice">$150.00</h2>
+                </div>
+                <img class="prodImg" id="bud2" src="./Assets/studiobuds-black.png" alt="" srcset="" width="300px">
+                <div class="colours">
+                    <span class="red" onclick="budChangetored('bud2')"></span>
+                    <span class="black" onclick="budChangetoblack('bud2')"></span>
+                </div>
+                <br>
+                <br>
+            </div>
+            <div class="card">
+                <div class="prodHead">
+                    <h1 class="prodTitle">Beats Studio Buds</h1>
+                    <h2 class="prodPrice">$150.00</h2>
+                </div>
+                <img class="prodImg" id="bud3" src="./Assets/studiobuds-red.png" alt="" srcset="" width="300px">
+                <div class="colours">
+                    <span class="red" onclick="budChangetored('bud3')"></span>
+                    <span class="black" onclick="budChangetoblack('bud3')"></span>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
